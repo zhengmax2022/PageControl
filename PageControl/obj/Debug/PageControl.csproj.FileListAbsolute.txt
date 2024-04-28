@@ -6,3 +6,11 @@ C:\Users\Administrator\Desktop\PageControl\PageControl\obj\Debug\PageControl.csp
 C:\Users\Administrator\Desktop\PageControl\PageControl\obj\Debug\PageControl.csproj.CoreCompileInputs.cache
 C:\Users\Administrator\Desktop\PageControl\PageControl\obj\Debug\PageControl.dll
 C:\Users\Administrator\Desktop\PageControl\PageControl\obj\Debug\PageControl.pdb
+C:\Users\Administrator\Desktop\work\PageControl\PageControl\bin\Debug\PageControl.dll
+C:\Users\Administrator\Desktop\work\PageControl\PageControl\bin\Debug\PageControl.pdb
+C:\Users\Administrator\Desktop\work\PageControl\PageControl\obj\Debug\PageControl.csproj.AssemblyReference.cache
+C:\Users\Administrator\Desktop\work\PageControl\PageControl\obj\Debug\PageControl.PageControl.resources
+C:\Users\Administrator\Desktop\work\PageControl\PageControl\obj\Debug\PageControl.csproj.GenerateResource.cache
+C:\Users\Administrator\Desktop\work\PageControl\PageControl\obj\Debug\PageControl.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\work\PageControl\PageControl\obj\Debug\PageControl.dll
+C:\Users\Administrator\Desktop\work\PageControl\PageControl\obj\Debug\PageControl.pdb

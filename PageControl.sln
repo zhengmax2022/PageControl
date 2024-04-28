@@ -5,7 +5,7 @@ VisualStudioVersion = 17.8.34525.116
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PageControl", "PageControl\PageControl.csproj", "{424014B1-051E-48D6-AEE4-5AAC30618831}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "demo", "demo\demo.csproj", "{6AF1454E-5E5B-4B6A-A26C-5A3C3021AF28}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "demo", "WindowsFormsApp1\demo.csproj", "{6AF1454E-5E5B-4B6A-A26C-5A3C3021AF28}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

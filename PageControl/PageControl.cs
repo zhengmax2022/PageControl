@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Diagnostics;
 
 namespace PageControl
 {
@@ -93,7 +94,18 @@ namespace PageControl
 
         private void UpdatePageInfo()
         {
-            lblPageInfo.Text = $"Page {currentPage} of {TotalPages}";
+            // 确保DataSource已设置并且lblPageInfo已初始化
+            if (bindingSource.DataSource != null && lblPageInfo != null)
+            {
+                int totalItems = ((DataTable)bindingSource.DataSource).Rows.Count;
+                int totalPages = TotalPages;
+                lblPageInfo.Text = $"第 {currentPage} 页 / 共 {totalPages} 页（共 {totalItems} 条数据）";
+            }
+            else
+            {
+                // 如果未初始化，则在调试时提供反馈
+                Debug.WriteLine("DataSource 或 lblPageInfo 未初始化。");
+            }
         }
 
         private void btnFirst_Click(object sender, EventArgs e)
